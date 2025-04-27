@@ -1,3 +1,6 @@
+
+
+
 # 🌍 Global Hotel Chat Assistant
 
 ## 🔥 Project Overview
@@ -36,9 +39,10 @@ Built using Python and Streamlit, it offers a fast, accessible experience while 
 ---
 
 
+---
 
 ## 🌍 Live Application
-👉https://vyzy78dt62w6z6jkyh3pi2.streamlit.app/
+👉 https://vyzy78dt62w6z6jkyh3pi2.streamlit.app/
 
 ---
 
@@ -46,3 +50,28 @@ Built using Python and Streamlit, it offers a fast, accessible experience while 
 1. Clone the repository:
 ```bash
 git clone https://github.com/kamalamsen/Hotel.git
+```
+
+2. Install required packages:
+```bash
+pip install -r requirements.txt
+```
+
+3. Create a `.env` file and add your Google Maps API key:
+```env
+GOOGLE_MAPS_API_KEY=your_api_key_here
+```
+
+4. Start the Streamlit app:
+```bash
+streamlit run main.py
+```
+
+---
+
+## 📜 License
+Open-source project available under the License.
+
+---
+
+
