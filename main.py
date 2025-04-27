@@ -1,8 +1,8 @@
 import streamlit as st
 import googlemaps
 import os
-import speech_recognition as sr
-import pyttsx3
+# import speech_recognition as sr
+# import pyttsx3
 from dotenv import load_dotenv
 
 # Load environment variables
@@ -32,8 +32,7 @@ if "messages" not in st.session_state:
 
 # Voice Input Option
 use_voice = st.toggle("🎤 Use Voice Input")
-user_prompt = None  # Initialize user_prompt
-
+user_prompt = st.chat_input("🌍 Enter a city/location to find hotels...")
 if use_voice:
     if st.button("Speak Now"):
         with st.spinner("Listening..."):
