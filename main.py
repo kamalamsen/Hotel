@@ -16,7 +16,7 @@ if not API_KEY:
 gmaps = googlemaps.Client(key=API_KEY)
 
 # Streamlit Page Setup
-st.set_page_config(page_title="🏨 Global Hotel Finder", page_icon="🏨")
+st.set_page_config(page_title="🏨🌍 Global Hotel Chat Assistant", page_icon="🏨")
 st.title("🏨 Global Hotel Finder")
 st.caption("Find safe, budget-friendly hotels anywhere!")
 
