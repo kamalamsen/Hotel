@@ -3,3 +3,4 @@ googlemaps
 python-dotenv
 speechrecognition
 pyttsx3
+pyaudio  
